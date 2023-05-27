@@ -1,0 +1,34 @@
+/* NAVBAR */
+.navbarDis {
+    padding: 1rem 5rem;
+}
+
+.logo {
+    font-weight: 600;
+    padding: 6px 25px;
+}
+
+.rightBtn {
+    background-color: #DDF252;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px 20px !important;
+}
+
+.navbar-nav>a {
+    font-size: 0.85rem;
+    color: black;
+}
+
+@media (max-width: 767.98px) {
+    .navbarDis {
+        padding: 1rem 1rem;
+    }
+}
+
+/* Landing */
+
+.demo-content>img {
+    width: 200px;
+    height: 200px;
+}
