@@ -1,6 +1,18 @@
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* NAVBAR */
 .navbarDis {
-    padding: 1rem 5rem;
+    padding: 1rem 4rem;
 }
 
 .logo {
@@ -26,7 +38,24 @@
     }
 }
 
+.container {
+    max-width: unset !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* Landing */
+.landingDis {
+    padding: 0 4.6rem;
+}
+
+.demo-content p {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.1;
+    word-spacing: 3px;
+}
 
 .demo-content>img {
     width: 200px;
@@ -309,4 +338,168 @@
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
+}
+
+.demo-content h1 {
+    padding: 0;
+    color: black;
+    line-height: 1.1;
+    font-size: 4.5rem;
+    margin: 20px 0;
+}
+
+.btnDiv {
+    margin-top: 2rem;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+}
+
+.black:hover {
+    border: 1px black solid;
+    background: white;
+    color: black;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    border-color: black;
+    padding: 8px 30px;
+}
+
+.white:hover {
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.5rem;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* display: block; */
+    box-shadow: -1rem 0rem 0rem 0rem rgb(203, 203, 203);
+    margin-left: -1.2rem;
+}
+
+.circle1 {
+    margin-right: 5px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(203, 203, 203);
+    margin-left: -2.2rem;
+}
+
+.demo-img {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 46%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.demo-img img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+    .demo-img {
+        width: 100%;
+    }
+}
+
+/* 
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+} */
+
+
+/* MALE BODY */
+.maleBody {
+    margin: 15rem 4.6rem 0 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.demo-content1 h1 {
+    padding: 0;
+    color: black;
+    line-height: 1.1;
+    font-size: 4.5rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+}
+
+.btn:hover {
+    border: 1px black solid;
+    background: white;
+    color: black;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.demo-content1 .col {
+    padding: 0 15px;
+}
+
+.demo-content1 h1 {
+    font-size: 2.5rem;
+}
+
+.demo-content1 p {
+    font-size: 1.2rem;
+}
+
+.demo-img1 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 50%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.demo-img1 img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.green {
+    background-color: #DDF247;
+    color: black;
+    padding: 8px 30px;
+}
+
+@media (max-width: 991.98px) {
+    .demo-img1 {
+        width: 100%;
+    }
+
 }
