@@ -1,6 +1,18 @@
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* NAVBAR */
 .navbarDis {
-    padding: 1rem 5rem;
+    padding: 1rem 4rem;
 }
 
 .logo {
@@ -34,12 +46,7 @@
 
 /* Landing */
 .landingDis {
-    padding: 0 5.6rem;
-}
-
-.demo-content>img {
-    width: 200px;
-    height: 200px;
+    padding: 0 4.6rem;
 }
 
 .demo-content p {
@@ -111,6 +118,104 @@
     margin-left: -2.2rem;
 }
 
-.bgBlack {
-    background: #000;
+.demo-img {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 46%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.demo-img img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+    .demo-img {
+        width: 100%;
+    }
+}
+
+/* 
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+} */
+
+
+/* MALE BODY */
+.maleBody {
+    margin: 15rem 4.6rem 0 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.demo-content1 h1 {
+    padding: 0;
+    color: black;
+    line-height: 1.1;
+    font-size: 4.5rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+}
+
+.btn:hover {
+    border: 1px black solid;
+    background: white;
+    color: black;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.demo-content1 .col {
+    padding: 0 15px;
+}
+
+.demo-content1 h1 {
+    font-size: 2.5rem;
+}
+
+.demo-content1 p {
+    font-size: 1.2rem;
+}
+
+.demo-img1 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 50%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.demo-img1 img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.green {
+    background-color: #DDF247;
+    color: black;
+    padding: 8px 30px;
+}
+
+@media (max-width: 991.98px) {
+    .demo-img1 {
+        width: 100%;
+    }
 }
